@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="text">
+    <h1>Free Currency Converter</h1>
+    <h4>Created By <a target="_blank" href="https://github.com/omar-kzafy">Omar</a></h4>
+  </div>
+  <div class="convert">
+    <form action="">
+      <div class="container">
+        <label for="selectOne">First Currency</label>
+        <div class="select-container">
+          <select name="Selection One" id="selectOne">
+          </select>
+          <div class="icon-container" id="ico-1">
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+        <input type="number" name="input" id="inputer">
+      </div>
+      <button><i class="fa-solid fa-right-left"></i></i></button>
+      <div class="container">
+        <label for="selectTwo">Second Currency</label>
+        <div class="select-container">
+          <select name="Selection Two" id="selectTwo">
+          </select>
+          <div class="icon-container" id="ico-2">
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+        <div class="result" id="result"></div>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <h4>This Web Is Mady By <span>Free API</span> (<a href="https://www.exchangerate-api.com">ExchangeRate-API</a>)</h4>
+    <h5 class="copy">&copy; <span>2023</span></h5>
+  </footer>
+  <script src="JavaScript.js" type="module"></script>
+</body>
+</html>
